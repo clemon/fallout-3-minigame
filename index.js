@@ -107,6 +107,7 @@ let promptGuess = (limit, words, answer) => {
 
 
 //TODO: vvv all this shit vvv
+// shuffle the words before displaying
 // pick words less randomly. find words that are more similar to the answer
     // pick answer randomly, then find words that are similar,
     // then find words that are not similar. % of words similar depends on diff
