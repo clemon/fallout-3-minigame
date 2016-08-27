@@ -22,7 +22,7 @@ require("fs").readFileSync("words.txt").toString().split("\n")
 });
 
 // method returns random int within inclusive range: [min, max]
-let randIntInRange(min, max) {
+let randIntInRange = (min, max) => {
     return Math.floor(Math.random() * (max - min +1)) + min;
 }
 
@@ -43,7 +43,7 @@ prompt.get([diffProps], (err, res) => {
              numWords: [14,15] }
     };
 
-    
+
 
 
     // rng to pick from dict
